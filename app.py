@@ -10,7 +10,7 @@ CORS(app)
 
 @app.route("/")
 def home() :
-    return "<p>Hello World</p>"
+    return "<h1>Hello World</h1>"
 
 @app.route('/generate-pdf', methods=['POST'])
 def generate_pdf():
