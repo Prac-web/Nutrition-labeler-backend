@@ -8,6 +8,10 @@ import os
 app = Flask(__name__)
 CORS(app)
 
+@app.route("/")
+def home() :
+    return "<p>Hello World</p>"
+
 @app.route('/generate-pdf', methods=['POST'])
 def generate_pdf():
     try:
