@@ -1,0 +1,4 @@
+Flask==2.3.3
+Flask-Cors==4.0.0
+WeasyPrint==61.2
+pydyf==0.8.0
